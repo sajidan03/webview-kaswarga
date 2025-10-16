@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var webView: WebView
     private lateinit var progressBar: ProgressBar
-    private val URL = "http://192.168.130.151:8080/"
+    private val URL = "http://192.168.130.143:8080/login/"
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
